@@ -1,0 +1,28 @@
+[Header]
+TITLE,Multiple MPMS DC Measurement
+BYAPP,MPMS Measurement,1.1,Summary
+FILEOPENTIME, 1524342485.979000 4/21/2018, 2:28:05 PM
+
+INFO, APPNAME, MPMS MultiVu Application, Revision 1.61,  Build 082
+
+INFO, NAME, TC04-12-01K
+INFO, WEIGHT, 1.000
+INFO, AREA, 1.000
+INFO, LENGTH, 1.000
+INFO, SHAPE, 0
+INFO, COMMENT, 
+INFO, SEQUENCE FILE: VRMac_55K_750s_VRMde_55Klinear.seq
+
+STARTUPAXIS,X,4,LINEAR,AUTO,0.000000,0.000000
+STARTUPAXIS,Y1,5,LINEAR,AUTO,0.000000,0.000000
+STARTUPAXIS,Y2,7,LINEAR,AUTO,0.000000,0.000000
+
+
+STARTUPGROUP,
+PLOT_APPEARANCE,ALL,HORZ_GRID_ON,VERT_GRID_ON,MARKERS_AND_LINES
+
+[Data]
+Time,Comment,Field (Oe),Avg. Temperature (K),Avg. Moment (emu),Avg. Scan Std. Dev.,Standard Error,Avg. Reg. Fit,Avg. Moment [w/o ABS] (emu),Avg. Scan Std Dev [w/o ABS],Moment Std. Error [w/o ABS],Avg. Reg. Fit [w/o ABS],Number of Measurements,Maximum Num. Meas. to Reject,Num. Std. Dev. for Reject,Number Meas. Rejected,Deviate Meas. Exists,Scan Length (cm),Num. of Points,Scans to Average,Rotator Position (deg),Delta Temp (K),Error,EC Comp. Running,Using ABS,
+1524341617.228,"Deviates at: 1,2,3,",0.000000e+000,5.499822e+001,-2.556269e-006,0.000000e+000,2.431696e-006,2.812622e-001,,,,,70,2,2,2,1,4.000000e+000,32,1,0.000000e+000,1.579666e-002,0,,0,
+1524342523.419,"Deviates at: 1,2,",0.000000e+000,5.499811e+001,8.965673e-007,0.000000e+000,3.836170e-007,0.000000e+000,,,,,70,2,2,2,0,4.000000e+000,32,1,0.000000e+000,1.578903e-002,0,,0,
+1524343403.851,,0.000000e+000,5.499789e+001,1.791776e-006,0.000000e+000,2.013214e-007,1.086722e-001,,,,,70,2,2,0,0,4.000000e+000,32,1,0.000000e+000,1.512527e-002,0,,0,

@@ -1,0 +1,4 @@
+RUN RUN "D:\sequences\guest\ThomasB\VRMac_35K_12000s_VRMde_35K.seq"
+RUN RUN "D:\sequences\guest\ThomasB\VRMac_35K_6000s_VRMde_35K.seq"
+RUN RUN "D:\sequences\guest\ThomasB\VRMac_35K_3000s_VRMde_35K.seq"
+RUN RUN "D:\sequences\guest\ThomasB\VRMac_35K_1500s_VRMde_35K.seq"
